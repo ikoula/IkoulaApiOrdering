@@ -1,0 +1,59 @@
+{
+ "product": {
+   "id": "603",
+   "config": {
+     "product": [
+       {
+        "id":"cycle",
+        "name": "cycle",
+        "items": [
+         {
+          "title": "Mensuel",
+          "value": "m",
+          "price": 9.99,
+          "selected": true
+         }
+        ]
+       }
+     ],
+     "forms": [
+       {
+        "metadata": {
+
+         "id": "2081",
+         "type": "slider",
+         "required": "0",
+         "name": "Stockage Total",
+         "key": "cf_quota",
+         "variable": "quota",
+         "description": "",
+         "category": "server",
+         "options": "19",
+         "sort_order": "1",
+         "group_id": "0",
+         "ftype": "slider",
+         "_description": "",
+         "hasQty": true,
+         "items": {
+          "7397": {
+           "id": "7397",
+           "category_id": "2081",
+           "name": "GB",
+           "variable_id": "",
+           "sort_order": "0",
+           "paytype": "Resources",
+           "recurring": "a",
+           "setup": 0,
+           "fee": "0.20",
+           "qty": "50" 
+          }
+         },
+         "subitems": false
+        }
+       }
+     ], 
+     "addons": [],
+     "subproducts": []
+   }
+ }
+}
